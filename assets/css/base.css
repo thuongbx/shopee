@@ -23,26 +23,26 @@ html {
 }
 
 /* responsive */
-.gird__row {
+.grid__row {
     display: flex;
     flex-wrap: wrap;
     margin-left: -6px;
     margin-right: -6px;
 }
 
-.gird__column-2 {
+.grid__column-2 {
     width: calc(100% / 6);
     padding-left: 6px;
     padding-right: 6px;
 }
 
-.gird__column-2-4 {
+.grid__column-2-4 {
     padding-left: 6px;
     padding-right: 6px;
     width: 20%;
 }
 
-.gird__column-10 {
+.grid__column-10 {
     width: calc(100% * 5 / 6);
     padding-left: 6px;
     padding-right: 6px;
