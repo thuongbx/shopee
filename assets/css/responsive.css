@@ -51,6 +51,9 @@
     .header-with-search {
         justify-content: space-between;
     }
+    .header__mobile-search {
+        display: block;
+    }
     .header__cart,
     .header__logo {
         width: unset;
