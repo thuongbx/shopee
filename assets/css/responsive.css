@@ -70,6 +70,18 @@
         animation: mobileSearchSideIn ease-in .3s;
         display: none;
     }
+    .pagination-item {
+        margin: 0;
+    }
+    .pagination-item__link {
+        --height: 28px;
+        font-size: 1.6rem;
+        min-width: 36px;
+    }
+    .main__content {
+        margin: 0 4px;
+    }
+
     @keyframes mobileSearchSideIn {
         from {
             opacity: 0;
